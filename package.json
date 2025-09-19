@@ -1,24 +1,24 @@
 {
-  "name": "chanhdai.com",
+  "name": "fadils.xyz",
   "version": "0.1.0",
   "description": "A minimal portfolio, component registry, and blog.",
-  "homepage": "https://chanhdai.com",
+  "homepage": "https://fadils.xyz",
   "license": "MIT",
   "author": {
-    "name": "Nguyen Chanh Dai",
-    "email": "dai@chanhdai.com",
-    "url": "https://github.com/ncdai"
+    "name": "Wahyu akhmad fadillah  ",
+    "email": "wahyufadil1140@gmail.com",
+    "url": "https://github.com/fadilsflow"
   },
   "contributors": [
     {
-      "name": "Nguyen Chanh Dai",
-      "email": "dai@chanhdai.com",
-      "url": "https://github.com/ncdai"
+      "name": "Wahyu akhmad fadillah  ",
+      "email": "wahyufadil1140@gmail.com",
+      "url": "https://github.com/fadilsflow"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncdai/chanhdai.com.git"
+    "url": "git+https://github.com/fadilsflow/dporto1408.git"
   },
   "scripts": {
     "dev": "next dev -p 1408 --turbopack",

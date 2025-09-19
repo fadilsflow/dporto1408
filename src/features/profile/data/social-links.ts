@@ -14,7 +14,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     href: "https://github.com/fadilsflow",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/x.webp",
+    icon: "https://res.cloudinary.com/dxurnpbrc/image/upload/v1758295929/project_icon_5_sudek0.webp",
     title: "Threads",
     description: "@fadils.xyz",
     href: "https://www.threads.com/@fadils.xyz",

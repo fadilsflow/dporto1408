@@ -56,7 +56,10 @@ export function BrandContextMenu({ children }: { children: React.ReactNode }) {
         </ContextMenuItem>
 
         <ContextMenuItem asChild>
-          <a href="https://assets.chanhdai.com/chanhdai-brand.zip" download>
+          <a
+            href="https://drive.google.com/file/d/1pSxfDQFzsDgAzbFCetIfOILsjDP8weiN/view?usp=sharinghttps://drive.google.com/uc?export=download&id=1pSxfDQFzsDgAzbFCetIfOILsjDP8weiN"
+            download
+          >
             <DownloadIcon />
             Download Brand Assets
           </a>

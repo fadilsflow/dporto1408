@@ -90,16 +90,16 @@ const DAIFOLIO_LINKS: CommandLinkItem[] = [
     href: "/#projects",
     icon: Icons.project,
   },
-  {
-    title: "Honors & Awards",
-    href: "/#awards",
-    icon: Icons.award,
-  },
-  {
-    title: "Certifications",
-    href: "/#certs",
-    icon: Icons.certificate,
-  },
+  // {
+  //   title: "Honors & Awards",
+  //   href: "/#awards",
+  //   icon: Icons.award,
+  // },
+  // {
+  //   title: "Certifications",
+  //   href: "/#certs",
+  //   icon: Icons.certificate,
+  // },
   {
     title: "Download vCard",
     href: "/vcard",

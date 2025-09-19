@@ -88,3 +88,7 @@ You're free to use my code! Just make sure to <ins>remove all my personal inform
 - [Fumadocs](https://fumadocs.dev)
 - And many other open-source libraries used in `package.json`
 # dporto1408
+
+This is my personal portfolio website.  
+The codebase is originally from [chanhdai.com](https://github.com/ncdai/chanhdai.com) by Chánh Đại, licensed under MIT.  
+I’ve modified the content and adjusted it for my personal use.

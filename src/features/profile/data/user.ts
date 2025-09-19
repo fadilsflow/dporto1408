@@ -16,14 +16,9 @@ export const USER: User = {
   flipSentences: ["Design Engineer", "Software Engineer"],
   jobs: [
     {
-      title: "Senior Frontend Developer & UI Design Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
-    },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
+      title: "Software Engineer",
+      company: "Anypeace",
+      website: "https://github.com/anypeace-oss/",
     },
   ],
   about: `
@@ -40,7 +35,7 @@ Let's connect and collaborate!
   avatar:
     "https://res.cloudinary.com/dxurnpbrc/image/upload/v1758206850/profile_avsqcv.webp",
   ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1755355653",
+    "https://res.cloudinary.com/dxurnpbrc/image/upload/v1758294318/1_pojo5c.png",
   namePronunciationUrl: "/p/fadil.mp3",
   keywords: [
     "ncdai",
@@ -54,5 +49,5 @@ Let's connect and collaborate!
     "nguyễn chánh đại",
     "chánh đại",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  dateCreated: "2025-9-20", // YYYY-MM-DD
 };
