@@ -57,7 +57,7 @@ export function BrandContextMenu({ children }: { children: React.ReactNode }) {
 
         <ContextMenuItem asChild>
           <a
-            href="https://drive.google.com/file/d/1pSxfDQFzsDgAzbFCetIfOILsjDP8weiN/view?usp=sharinghttps://drive.google.com/uc?export=download&id=1pSxfDQFzsDgAzbFCetIfOILsjDP8weiN"
+            href="https://drive.google.com/uc?export=download&id=1pSxfDQFzsDgAzbFCetIfOILsjDP8weiN"
             download
           >
             <DownloadIcon />
