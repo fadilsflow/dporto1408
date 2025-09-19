@@ -1,23 +1,19 @@
 import type { User } from "@/features/profile/types/user";
 
 export const USER: User = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Wahyu",
+  lastName: "Akhmad Fadillah",
+  displayName: "Fadil",
+  username: "fadil",
   gender: "male",
   pronouns: "he/him",
-  bio: "Creating with code. Small details matter.",
-  flipSentences: [
-    "Creating with code. Small details matter.",
-    "Design Engineer",
-    "Open Source Contributor",
-  ],
-  address: "Thanh My Tay Ward, Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  bio: "Experienced fullstack developer specializing in custom web application development. Providing end-to-end solutions using modern technologies like Next.js, TypeScript, and responsive design.",
+  address: "Tegal, Jawa Tengah, Indonesia",
+  phoneNumber: "KzYyODUxNTc3Mzk5Nzg=", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
+  email: "d2FoeXVmYWRpbDExNDBAZ21haWwuY29t", // base64 encoded
+  website: "https://fadils.xyz",
+  jobTitle: "Full Stack Developer",
+  flipSentences: ["Design Engineer", "Software Engineer"],
   jobs: [
     {
       title: "Senior Frontend Developer & UI Design Lead",
@@ -31,20 +27,21 @@ export const USER: User = {
     },
   ],
   about: `
-Hello, World! I am Chánh Đại — a Design Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
+Hello, World! I am Wahyu Akhmad Fadillah — a Full Stack Developer from Indonesia passionate about creating efficient, user-centric web solutions from front-end to back-end.
 
-With 5+ years of experience, I specialize in building high-quality web and mobile applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
+With expertise in Next.js, TypeScript, and React, I specialize in building modern, responsive web applications. Beyond work, I enjoy exploring new technologies and turning innovative ideas into reality through personal projects.
 
-One of my key projects, [ZaDark](https://zadark.com), launched in 2022, enhances the Zalo experience on PC and Web, surpassing 80k+ downloads on [SourceForge](https://sourceforge.net/projects/zadark) and reaching 20k+ active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob) (as of Sep 2025).
+One of my key projects is [Dya Collection](https://dya-collection.vercel.app), an e-commerce platform for MSMEs that I developed as a community service initiative. This project helps digitize local businesses, empowering them to reach wider markets and manage their operations more efficiently.
 
-I'm also the creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com) — iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. It has earned 4k+ weekly downloads on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker) and was selected for [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort.
+I also created [Rightsponse](https://rs.fadils.xyz), an AI-powered writing assistant that helps users craft perfect responses. This project highlights my interest in integrating AI technology to solve everyday problems and showcases my skills in AI integration.
 
 Let's connect and collaborate!
-  `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
+`,
+  avatar:
+    "https://res.cloudinary.com/dxurnpbrc/image/upload/v1758206850/profile_avsqcv.webp",
   ogImage:
     "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1755355653",
-  namePronunciationUrl: "https://assets.chanhdai.com/audio/chanhdai.mp3",
+  namePronunciationUrl: "/p/fadil.mp3",
   keywords: [
     "ncdai",
     "nguyenchanhdai",

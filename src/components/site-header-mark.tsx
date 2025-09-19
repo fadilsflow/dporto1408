@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useMotionValueEvent, useScroll } from "motion/react";
+import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
@@ -39,7 +39,16 @@ function ChanhDaiMarkMotion() {
   return (
     <motion.svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512 256"
+      // --- PERUBAHAN DI SINI ---
+      // viewBox lama: "0 0 810 809.999993"
+      viewBox="0 200 810 450" // (x, y, width, height) - Bingkai digeser ke bawah dan dibuat lebih pendek
+      // -----------------------
+      fill="currentColor"
+      width="64"
+      // --- DAN DI SINI ---
+      // height lama: "64"
+      height="36" // Disesuaikan agar pas dengan viewBox baru (rasio ~810:450)
+      // -------------------
       initial={{
         opacity: 0,
         transform: "translateY(8px)",
@@ -50,10 +59,12 @@ function ChanhDaiMarkMotion() {
       }}
       transition={{ duration: 0.3 }}
     >
-      <path
-        d="M192 256H64v-64h128v64ZM448 64H320v128h128v64H256V0h192v64ZM64 192H0V64h64v128ZM512 192h-64V64h64v128ZM192 64H64V0h128v64Z"
-        fill="currentColor"
-      />
+      <g transform="translate(8.7789 629.89)">
+        <path d="m84.156-168.31v168.31h-84.156v-420.38h336.22v84.156h-252.06v83.75h252.06v84.156z" />
+      </g>
+      <g transform="translate(378.7 629.89)">
+        <path d="m420.38-336.22v252.06h-84.156v84.156h-336.22v-420.38h336.22v84.156zm-336.22 252.06h251.23v-252.06h-251.23z" />
+      </g>
     </motion.svg>
   );
 }

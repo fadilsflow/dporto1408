@@ -2,18 +2,38 @@ export function ChanhDaiMark(props: React.ComponentProps<"svg">) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 512 256"
+      fill="currentColor"
+      viewBox="0 200 810 450"
+      width="64"
+      height="36"
       {...props}
     >
-      <path
-        fill="currentColor"
-        d="M192 256H64v-64h128v64ZM448 64H320v128h128v64H256V0h192v64ZM64 192H0V64h64v128ZM512 192h-64V64h64v128ZM192 64H64V0h128v64Z"
-      />
+      <g transform="translate(8.7789 629.89)">
+        <path d="m84.156-168.31v168.31h-84.156v-420.38h336.22v84.156h-252.06v83.75h252.06v84.156z" />
+      </g>
+      <g transform="translate(378.7 629.89)">
+        <path d="m420.38-336.22v252.06h-84.156v84.156h-336.22v-420.38h336.22v84.156zm-336.22 252.06h251.23v-252.06h-251.23z" />
+      </g>
     </svg>
   );
 }
 
 export function getMarkSVG(color: string) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 128"><path fill="${color}" d="M96 128H32V96h64v32ZM224 32h-64v64h64v32h-96V0h96v32ZM32 96H0V32h32v64ZM256 96h-32V32h32v64ZM96 32H32V0h64v32Z"/></svg>`;
+  const fullSvg = `
+    <svg 
+      xmlns="http://www.w3.org/2000/svg"
+      fill="${color}"
+      viewBox="0 200 810 450"
+      width="64"
+      height="36"
+    >
+      <g transform="translate(8.7789 629.89)">
+        <path d="m84.156-168.31v168.31h-84.156v-420.38h336.22v84.156h-252.06v83.75h252.06v84.156z" />
+      </g>
+      <g transform="translate(378.7 629.89)">
+        <path d="m420.38-336.22v252.06h-84.156v84.156h-336.22v-420.38h336.22v84.156zm-336.22 252.06h251.23v-252.06h-251.23z" />
+      </g>
+    </svg>
+  `;
+  return fullSvg;
 }

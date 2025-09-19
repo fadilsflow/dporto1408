@@ -108,18 +108,6 @@ export const TECH_STACK: TechStack[] = [
     theme: true,
   },
   {
-    key: "react-navigation",
-    title: "React Navigation",
-    href: "https://reactnavigation.org/",
-    categories: ["Library", "Navigation"],
-  },
-  {
-    key: "loopback",
-    title: "LoopBack",
-    href: "https://loopback.io/",
-    categories: ["Framework"],
-  },
-  {
     key: "laravel",
     title: "Laravel",
     href: "https://laravel.com/",
