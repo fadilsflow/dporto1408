@@ -13,7 +13,8 @@ export const USER: User = {
   email: "d2FoeXVmYWRpbDExNDBAZ21haWwuY29t", // base64 encoded
   website: "https://fadils.xyz",
   jobTitle: "Full Stack Developer",
-  flipSentences: ["Design Engineer", "Software Engineer"],
+  flipSentences: ["Software Engineer"],
+
   jobs: [
     {
       title: "Software Engineer",
