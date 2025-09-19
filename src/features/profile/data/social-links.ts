@@ -26,7 +26,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     href: "https://app.daily.dev/wahyuakhmadfadillah",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/zalo.webp",
+    icon: "https://res.cloudinary.com/dxurnpbrc/image/upload/v1758299913/project_icon_6_xiu6se.webp",
     title: "Instagram",
     description: "fadils.xyz",
     href: "https://www.instagram.com/fadils.xyz",
