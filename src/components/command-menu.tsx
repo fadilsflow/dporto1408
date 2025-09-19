@@ -296,9 +296,7 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
               Copy Logotype as SVG
             </CommandItem>
 
-            <CommandItem
-              onSelect={() => handleOpenLink("/blog/chanhdai-brand")}
-            >
+            <CommandItem onSelect={() => handleOpenLink("/blog/fadil-brand")}>
               <TriangleDashedIcon />
               Brand Guidelines
             </CommandItem>

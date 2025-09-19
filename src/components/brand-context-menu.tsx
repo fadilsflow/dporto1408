@@ -49,7 +49,7 @@ export function BrandContextMenu({ children }: { children: React.ReactNode }) {
         </ContextMenuItem>
 
         <ContextMenuItem asChild>
-          <Link href="/blog/chanhdai-brand">
+          <Link href="/blog/fadil-brand">
             <TriangleDashedIcon />
             Brand Guidelines
           </Link>
