@@ -36,7 +36,6 @@ export function SocialLinkItem({ icon, title, description, href }: SocialLink) {
         width={48}
         height={48}
         quality={100}
-        unoptimized
       />
 
       <div className="flex-1">

@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
         hostname: "assets.chanhdai.com",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        port: "",
+      },
     ],
     qualities: [75, 100],
   },
