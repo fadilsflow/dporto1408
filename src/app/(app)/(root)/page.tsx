@@ -7,6 +7,7 @@ import { Blog } from "@/features/profile/components/blog";
 import { Brand } from "@/features/profile/components/brand";
 // import { Certifications } from "@/features/profile/components/certifications";
 import { Experiences } from "@/features/profile/components/experiences";
+import { GitHubContributions } from "@/features/profile/components/github-contributions";
 import { Overview } from "@/features/profile/components/overview";
 import { ProfileCover } from "@/features/profile/components/profile-cover";
 import { ProfileHeader } from "@/features/profile/components/profile-header";
@@ -20,7 +21,7 @@ export default function Page() {
   return (
     <>
       <script
-        type="application/ld+json"
+        type="application/ld+j  n"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(getPageJsonLd()).replace(/</g, "\\u003c"),
         }}
@@ -40,16 +41,19 @@ export default function Page() {
         <About />
         <Separator />
 
-        <TeckStack />
+        <GitHubContributions />
         <Separator />
 
-        <Blog />
+        <TeckStack />
         <Separator />
 
         <Experiences />
         <Separator />
 
         <Projects />
+        <Separator />
+
+        <Blog />
         <Separator />
 
         {/* <Awards />

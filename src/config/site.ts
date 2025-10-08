@@ -24,11 +24,16 @@ export const MAIN_NAV: NavItem[] = [
     href: "/blog",
   },
   {
-    title: "Components",
-    href: "/components",
+    title: "Resume",
+    href: "/resume",
   },
+  // {
+  //   title: "Components",
+  //   href: "/components",
+  // },
 ];
 
+export const GITHUB_USERNAME = "fadilsflow";
 export const SOURCE_CODE_GITHUB_REPO = "fadilsflow/dporto1408";
 export const SOURCE_CODE_GITHUB_URL =
   "https://github.com/fadilsflow/dporto1408";

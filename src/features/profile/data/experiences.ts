@@ -2,6 +2,115 @@ import type { Experience } from "../types/experiences";
 
 export const EXPERIENCES: Experience[] = [
   {
+    id: "JejakRempah Marketplace",
+    companyName: "JejakRempah Marketplace",
+    companyLogo: "/p/jejak-rempah.svg",
+    positions: [
+      {
+        id: "c47f5903-88ae-4512-8a50-0b91b0cf99b6",
+        title: "Fullstack Developer",
+        employmentPeriod: {
+          start: "08.2025",
+        },
+        employmentType: "Part-time",
+        description: `- Develop [JejakRempah Marketplace](https://marketplace.jejakrempah.com), a platform for selling and buying spices.
+- Develop [JejakRempah Seller Dashboard](https://marketplace.jejakrempah.com/seller/dashboard), a dashboard for seller managing their store.
+- Integrated [Midtrans](https://midtrans.com) for payment gateway.
+- Develop and maintain core features to enhance functionality and user experience.
+- Collaborate with the team to ensure the project is on track and meets the requirements.
+- Ensure UI/UX consistency and adherence to standards.
+- Implement robust frontend solutions for web and mobile platforms.
+- Analyze technical capabilities and provide optimal solutions.
+        `,
+        icon: "code",
+        skills: [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "Midtrans",
+          "PostgreSQL",
+          "Drizzle",
+          "Zustand",
+          "Tanstack Query",
+          "Teamwork",
+          "Research",
+          "Problem-solving",
+          "Project Management",
+        ],
+      },
+    ],
+  },
+  {
+    id: "harber marketplace",
+    companyName: "Harber Marketplace",
+    companyLogo: "/p/mphb.svg",
+    positions: [
+      {
+        id: "c47f5903-88ae-4512-8a50-0b91b0cf99b6",
+        title: "Frontend Developer",
+        employmentPeriod: {
+          start: "06.2025",
+          end: "09.2025",
+        },
+        employmentType: "Freelance",
+        description: `- Develop [Harber Marketplace Frontend](https://github.com/marketplace-UMKM-Harapan-Bersama/harber-marketplace-frontend), a platform for selling and buying products.
+- Integrated RESTful APIs and optimized frontend performance for seamless user experience.
+- Designed and implemented UI/UX improvements that enhanced usability and accessibility.
+- Ensure UI/UX consistency and adherence to standards.
+- Analyze technical capabilities and provide optimal solutions.
+- Collaborated with backend developers to ensure smooth data flow between client and server.
+- Collaborate with the team to ensure the project is on track and meets the requirements.
+        `,
+        icon: "code",
+        skills: [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "React Query",
+          "Zustand",
+          "Tanstack Query",
+          "Teamwork",
+          "Research",
+          "Problem-solving",
+          "Project Management",
+        ],
+      },
+    ],
+  },
+  {
+    id: "harkat english club",
+    companyName: "Harkat English Club",
+    companyLogo: "/p/henc.svg",
+    positions: [
+      {
+        id: "0eecdfcb-028d-41f4-93e9-1269ba7eff7e",
+        title: "Graphic Designer",
+        employmentPeriod: {
+          start: "2023",
+        },
+        employmentType: "Freelance",
+        description: `- Design and Manage Feeds and Posts for the [Harkat English Club](https://instagram.com/henc_harkat) social media accounts.
+- Collaborate with the club's members to create content for the club.
+- Documented the club's activities and events.
+`,
+        icon: "design",
+        skills: [
+          "Graphic Design",
+          "Social Media Management",
+          "Content Creation",
+          "Teamwork",
+          "Research",
+          "Problem-solving",
+          "Project Management",
+        ],
+      },
+    ],
+  },
+  {
     id: "freelance",
     companyName: "Freelance / Self-employed",
     positions: [

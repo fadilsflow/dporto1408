@@ -17,6 +17,11 @@ const nextConfig: NextConfig = {
         hostname: "res.cloudinary.com",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "marketplace.jejakrempah.com",
+        port: "",
+      },
     ],
     qualities: [75, 100],
   },
