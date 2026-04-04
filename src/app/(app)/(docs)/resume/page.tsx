@@ -25,7 +25,7 @@ export default function Page() {
         </div>
 
         <iframe
-          src="https://drive.google.com/file/d/1pPmMkBtYGP_LRZViUmC31xWCDqoZ5LG1/preview"
+          src="https://drive.google.com/file/d/1lqikfdBvA24I6XRtXlsHYnU2jg2Bw2DQ/preview"
           allow="autoplay"
           className="h-[1000px] w-full"
         ></iframe>
