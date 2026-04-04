@@ -2,25 +2,53 @@ import type { Experience } from "../types/experiences";
 
 export const EXPERIENCES: Experience[] = [
   {
+    id: "tegal-tourism",
+    companyName: "Tegal Tourism",
+    companyLogo: "/p/tegal-tourism.png",
+    positions: [
+      {
+        id: "a1b2c3d4-tegal-tourism-fullstack",
+        title: "Full Stack Developer",
+        employmentPeriod: {
+          start: "10.2025",
+          end: "12.2025",
+        },
+        employmentType: "Part-time",
+        description: `- Developed and optimized core features of a digital tourism platform with focus on performance and user experience.
+- Successfully increased platform adoption by implementing commercial features that attracted local business owners.
+- Actively involved in system architecture planning and long-term development strategy alongside the management team.
+        `,
+        icon: "code",
+        skills: [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "PostgreSQL",
+          "Teamwork",
+          "Problem-solving",
+          "Project Management",
+        ],
+      },
+    ],
+  },
+  {
     id: "JejakRempah Marketplace",
     companyName: "JejakRempah Marketplace",
     companyLogo: "/p/jejak-rempah.svg",
     positions: [
       {
         id: "c47f5903-88ae-4512-8a50-0b91b0cf99b6",
-        title: "Fullstack Developer",
+        title: "Full Stack Developer",
         employmentPeriod: {
           start: "08.2025",
+          end: "12.2025",
         },
         employmentType: "Part-time",
-        description: `- Develop [JejakRempah Marketplace](https://marketplace.jejakrempah.com), a platform for selling and buying spices.
-- Develop [JejakRempah Seller Dashboard](https://marketplace.jejakrempah.com/seller/dashboard), a dashboard for seller managing their store.
-- Integrated [Midtrans](https://midtrans.com) for payment gateway.
-- Develop and maintain core features to enhance functionality and user experience.
-- Collaborate with the team to ensure the project is on track and meets the requirements.
-- Ensure UI/UX consistency and adherence to standards.
-- Implement robust frontend solutions for web and mobile platforms.
-- Analyze technical capabilities and provide optimal solutions.
+        description: `- Built [JejakRempah Marketplace](https://marketplace.jejakrempah.com) from scratch, developing both frontend and backend through to deployment.
+- Implemented international security standard ISO 27001 to ensure user data protection and transaction security.
+- Conducted usability evaluation using the SUS method and achieved "Best Imaginable" category result.
+- Integrated [Midtrans](https://midtrans.com) payment gateway for seamless transactions and automated seller remittance.
         `,
         icon: "code",
         skills: [
@@ -51,17 +79,13 @@ export const EXPERIENCES: Experience[] = [
         id: "c47f5903-88ae-4512-8a50-0b91b0cf99b6",
         title: "Frontend Developer",
         employmentPeriod: {
-          start: "06.2025",
-          end: "09.2025",
+          start: "06.2024",
+          end: "09.2024",
         },
         employmentType: "Freelance",
-        description: `- Develop [Harber Marketplace Frontend](https://github.com/marketplace-UMKM-Harapan-Bersama/harber-marketplace-frontend), a platform for selling and buying products.
-- Integrated RESTful APIs and optimized frontend performance for seamless user experience.
-- Designed and implemented UI/UX improvements that enhanced usability and accessibility.
-- Ensure UI/UX consistency and adherence to standards.
-- Analyze technical capabilities and provide optimal solutions.
-- Collaborated with backend developers to ensure smooth data flow between client and server.
-- Collaborate with the team to ensure the project is on track and meets the requirements.
+        description: `- Developed [Harber Marketplace](https://github.com/marketplace-UMKM-Harapan-Bersama/harber-marketplace-frontend) e-commerce interface with RESTful API integration and frontend performance optimization.
+- Designed UI/UX improvements that enhanced usability, accessibility, and design consistency of the platform.
+- Collaborated with backend team and stakeholders to ensure efficient data flow and timely project deliverables.
         `,
         icon: "code",
         skills: [
@@ -118,16 +142,15 @@ export const EXPERIENCES: Experience[] = [
         id: "f0becfba-057d-40db-b252-739e1654faa1",
         title: "Full Stack Developer",
         employmentPeriod: {
-          start: "2023",
+          start: "03.2024",
           end: "Present",
         },
         employmentType: "Freelance",
-        description: `- Built and maintained several web applications for SMEs and community projects.
-- Developed "Dya Collection", an e-commerce platform for a local MSME, using Next.js, Prisma, and PostgreSQL.
-- Contributed to "Harber Marketplace", a multi-vendor marketplace for Indonesian SMEs, as a frontend developer.
-- Created "SyncRank", a decision support system with AI integration for academic performance ranking.
-- Designed and launched personal projects including "Rightsponse" (AI-powered writing assistant) and "Devporto" (developer portfolio template).
-- Implemented CI/CD workflows, Dockerized deployments, and SEO optimizations for production-grade apps.`,
+        description: `- Built and deployed production-ready web applications for various clients using Next.js, TypeScript, and PostgreSQL.
+- Developed complex systems including a multi-user financial management platform with transaction records, role-based access, data visualization, and exportable reports.
+- Integrated AI capabilities (e.g. Gemini API) into client applications to enable smart features such as content generation and intelligent recommendations.
+- Delivered end-to-end e-commerce solutions with admin dashboards, payment systems, and responsive UIs.
+- Handled API design, UI development, database modeling, and deployment.`,
         icon: "code",
         skills: [
           "React",
@@ -135,10 +158,11 @@ export const EXPERIENCES: Experience[] = [
           "TypeScript",
           "Tailwind CSS",
           "PostgreSQL",
+          "Drizzle",
           "Prisma",
-          "Docker",
           "Supabase",
           "shadcn/ui",
+          "Gemini API",
         ],
       },
       {
@@ -170,23 +194,22 @@ export const EXPERIENCES: Experience[] = [
       {
         id: "c47f5903-88ae-4512-8a50-0b91b0cf99b6",
         title:
-          "Politeknik Harapan Bersama Tegal — Applied Bachelor (D4) Informatics Engineering",
+          "Universitas Harkat Negeri — Applied Bachelor (D4) Informatics Engineering",
         employmentPeriod: {
-          start: "2023",
-          end: "2027",
+          start: "09.2023",
+          end: "Present",
         },
         icon: "education",
-        description: `- Currently pursuing an Applied Bachelor's degree in Informatics Engineering.
-- Focus areas: full stack web development, database design, distributed systems, and software project management.
-- Active in building real-world projects with peers and mentors, including marketplace platforms and AI-powered applications.
-- Developing strong problem-solving, collaboration, and self-learning abilities.`,
+        description: `- Currently pursuing an Applied Bachelor's degree in Informatics Engineering with GPA 3.89 / 4.0.
+- Relevant coursework: Web Programming, Mobile Programming, Database, Software Testing, Software Engineering, Artificial Intelligence.
+- Active member of Forum Riset Teknologi Informasi (FORTI) — Programmer Division, teaching and guiding members through practice sessions and discussions.
+- Led the Creative Team for PKKMB 2024, overseeing event branding, media production, and visual design.`,
         skills: [
-          "C++",
-          "Java",
-          "Python",
-          "Algorithms",
-          "Software Engineering",
+          "Web Programming",
+          "Mobile Programming",
           "Database Design",
+          "Software Engineering",
+          "Artificial Intelligence",
           "System Architecture",
           "Teamwork",
         ],

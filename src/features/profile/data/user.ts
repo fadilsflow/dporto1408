@@ -7,7 +7,7 @@ export const USER: User = {
   username: "fadil",
   gender: "male",
   pronouns: "he/him",
-  bio: "Experienced fullstack developer specializing in custom web application development. Providing end-to-end solutions using modern technologies like Next.js, TypeScript, and responsive design.",
+  bio: "Full Stack Developer with 2+ years of experience building production-ready, scalable web applications. Proficient in end-to-end development with Next.js, TypeScript, and modern tooling, with a strong interest in SaaS platforms and AI-assisted development.",
   address: "Tegal, Jawa Tengah, Indonesia",
   phoneNumber: "KzYyODUxNTc3Mzk5Nzg=", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   email: "d2FoeXVmYWRpbDExNDBAZ21haWwuY29t", // base64 encoded
@@ -17,19 +17,19 @@ export const USER: User = {
 
   jobs: [
     {
-      title: "Software Engineer",
-      company: "Anypeace",
-      website: "https://github.com/anypeace-oss/",
+      title: "Full Stack Developer",
+      company: "Freelance",
+      website: "https://fadils.web.id",
     },
   ],
   about: `
 Hello, World! I am Wahyu Akhmad Fadillah — a Full Stack Developer from Indonesia passionate about creating efficient, user-centric web solutions from front-end to back-end.
 
-With expertise in Next.js, TypeScript, and React, I specialize in building modern, responsive web applications. Beyond work, I enjoy exploring new technologies and turning innovative ideas into reality through personal projects.
+With 2+ years of experience, I specialize in building production-ready, scalable web applications using Next.js, TypeScript, and modern tooling. I'm also experienced in integrating AI capabilities and third-party APIs, and I effectively leverage AI-assisted development tools like Cursor to accelerate development and improve code quality.
 
-One of my key projects is [Dya Collection](https://dya-collection.vercel.app), an e-commerce platform for MSMEs that I developed as a community service initiative. This project helps digitize local businesses, empowering them to reach wider markets and manage their operations more efficiently.
+One of my flagship projects is [Kreasi](https://github.com/fadilsflow/kreasi), an open-source link-in-bio platform with a drag-and-drop block editor, digital product sales, and a financial ledger system — built with TanStack Start, tRPC, and Midtrans.
 
-I also created [Rightsponse](https://rs.fadils.xyz), an AI-powered writing assistant that helps users craft perfect responses. This project highlights my interest in integrating AI technology to solve everyday problems and showcases my skills in AI integration.
+I also created [Jeda](https://github.com/fadilsflow/jeda), a Pomodoro timer app with productivity stats, leaderboard, ambient sounds, and Better Auth integration — and [Rightsponse](https://rs.fadils.xyz), an AI-powered writing assistant using Google Gemini.
 
 Let's connect and collaborate!
 `,
