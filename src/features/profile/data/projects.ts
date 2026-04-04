@@ -59,7 +59,7 @@ export const PROJECTS: Project[] = [
       "Zustand",
     ],
     description: `A Pomodoro timer app with customizable duration, color themes, backgrounds, and ambient sounds to boost productivity. Implements a statistics and leaderboard system tracking focus time, daily streaks, and user rankings stored in PostgreSQL. Designed with keyboard shortcuts, responsive layout, and authentication via Better Auth.`,
-    logo: "/p/jeda.svg",
+    logo: "/p/jeda.png",
   },
   {
     id: "heal",
@@ -77,7 +77,7 @@ export const PROJECTS: Project[] = [
       "Zustand",
     ],
     description: `An AI-powered health companion app with interactive chat features providing personal health insights from user data. Integrates data from wearable devices (Apple Watch, Garmin, Oura, Whoop) and visualizes it through interactive charts. Implements user authentication with Clerk and an onboarding flow for personalized health experience.`,
-    logo: "/p/heal.svg",
+    logo: "/p/heal.png",
   },
   {
     id: "edu-anemia",
@@ -86,10 +86,10 @@ export const PROJECTS: Project[] = [
       start: "07.2025",
       end: "08.2025",
     },
-    link: "https://github.com/fadilsflow/edu-anemia",
+    link: "https://edukasi-anemia.my.id",
     skills: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     description: `An interactive health education web app about anemia for adolescents, covering causes, symptoms, impacts, and prevention. Implements an interactive quiz and WHO-guideline-based anemia risk assessment calculator for early detection. Designed with Framer Motion animations and Rough Notation to boost user engagement.`,
-    logo: "/p/edu-anemia.svg",
+    logo: "/p/edu-anemia.png",
   },
   {
     id: "rightsponse",
