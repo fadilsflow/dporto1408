@@ -13,7 +13,7 @@ This guide provides essential information for AI agents working with the fadils.
 
 ### Tech Stack
 
-- **Framework**: Next.js 15 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Styling**: Tailwind CSS v4
 - **UI Components**: shadcn/ui + custom components
 - **Package Manager**: pnpm
@@ -114,8 +114,9 @@ pnpm build
 
 - **TypeScript**: Strict mode enabled
 - **ESLint**: Next.js configuration
-- **Prettier**: Code formatting
+- **Prettier**: Code formatting with tailwindcss plugin
 - **File naming**: kebab-case for files, PascalCase for components
+- **Pre-commit**: Husky runs lint-staged (ESLint fix + Prettier on staged files)
 
 ### Component Development
 
@@ -153,6 +154,7 @@ See `.env.example` for required variables:
 
 - `APP_URL` - Application URL
 - `REGISTRY_URL` - Registry base URL
+- `GITHUB_API_TOKEN` - GitHub token for API access (optional)
 
 ### Site Configuration
 
@@ -242,6 +244,15 @@ When adapting this codebase, ensure ALL personal information is replaced:
 pnpm build          # Production build
 pnpm start          # Start production server
 pnpm preview        # Build and preview locally
+```
+
+### One-off Scripts
+
+```bash
+pnpm upgrade:next             # Upgrade Next.js to latest
+pnpm upgrade:tailwind        # Upgrade Tailwind CSS
+pnpm capture                 # Generate component screenshots
+pnpm generate-libphonenumber-metadata  # Generate phone metadata
 ```
 
 ## Contributing

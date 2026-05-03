@@ -2,13 +2,13 @@ import type { SocialLink } from "../types/social-links";
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/linkedin.webp",
+    icon: "https://assets.chanhdai.com/images/link-icons/linkedin.webp?v=2",
     title: "LinkedIn",
     description: "wahyu-akhmad-fadillah",
     href: "https://www.linkedin.com/in/wahyu-akhmad-fadillah/",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/github.webp",
+    icon: "https://assets.chanhdai.com/images/link-icons/github.webp?v=2",
     title: "GitHub",
     description: "fadilsflow",
     href: "https://github.com/fadilsflow",
@@ -20,7 +20,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     href: "https://www.threads.com/@fadils.xyz",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/dailydotdev.webp",
+    icon: "https://assets.chanhdai.com/images/link-icons/dailydotdev.webp?v=2",
     title: "daily.dev",
     description: "@wahyuakhmadfadillah",
     href: "https://app.daily.dev/wahyuakhmadfadillah",
@@ -32,7 +32,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     href: "https://www.instagram.com/fadils.xyz",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/youtube.webp",
+    icon: "https://assets.chanhdai.com/images/link-icons/youtube.webp?v=2",
     title: "YouTube",
     description: "@wahyuakhmadfadillah9882",
     href: "https://www.youtube.com/@wahyuakhmadfadillah9882",
